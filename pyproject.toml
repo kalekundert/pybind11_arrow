@@ -1,0 +1,14 @@
+[build-system]
+requires = [
+  "setuptools>=42",
+  "pybind11>2.10",
+  "pyarrow",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "demo"
+description = ""
+version = "0.0.0"
+dependencies = ["pyarrow"]
+  
